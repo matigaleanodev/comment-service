@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import { Controller } from '@nestjs/common';
 import { MessagePattern, Payload } from '@nestjs/microservices';
 import { CommentService } from './comment.service';
