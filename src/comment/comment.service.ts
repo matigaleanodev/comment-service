@@ -12,6 +12,7 @@ export class CommentService {
 
   create(createCommentDto: CreateCommentDto): Promise<Comment> {
     const newComment = new this.CommentModel(createCommentDto);
+
     return newComment.save();
   }
 

@@ -1,6 +1,5 @@
-/* eslint-disable prettier/prettier */
 import { Prop, SchemaFactory, Schema } from '@nestjs/mongoose';
-import { HydratedDocument } from 'mongoose';
+import { HydratedDocument, Document } from 'mongoose';
 
 export type CommentDocument = HydratedDocument<Comment>;
 
